@@ -1,0 +1,10 @@
+gradle --version
+java -version
+
+gradle :wrapper --gradle-version 8.7
+
+
+.\gradlew.bat --version
+.\gradlew.bat build
+
+.\gradlew.bat assembleDebug
