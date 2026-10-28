@@ -13,5 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.textView.text = "Hello World!"
+
+        binding.buttonHello.setOnClickListener {
+            binding.textView.text = "xin chào"
+        }
     }
 }
